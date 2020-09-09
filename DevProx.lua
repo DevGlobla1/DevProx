@@ -3854,9 +3854,9 @@ if text == 'سورس عبس' or text == 'سورس بروكس' or text == 'سور
 end
 --     Source DevProx     --
 if text == 'بوت' or text == 'بوتت' then name_bot = (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'بروكس') local ABS_PROX = {  "ڵتكول بوت ٱسمي "..name_bot.." 😒🔪",  "عندي ٱسم تره 😒💔",  "صيحوڵي "..name_bot.." كٱفي بوت 😒🔪",  "ٱنت ٱڵبوت ڵك 😒💔", } DevAbs2 = math.random(#ABS_PROX) Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX[DevAbs2] , 1, 'md') end
-if text == 'اسم البوت' or text == 'البوت شنو اسمه' or text == 'شسمه البوت' or text == 'البوت شسمه'  then name_bot = (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'بروكس') local ABS_PROX = {  "مرحبٱ عزيزي 😻♥️ \nٱسمي "..name_bot.." 😚♥️",  "هلاا يروحيي وياكك "..name_bot.." 😻♥️", } DevAbs2 = math.random(#ABS_PROX) Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX[DevAbs2] , 1, 'md') end
-if text ==  ""..name_bot..' احبك' or text ==  ""..name_bot..' احبج' then name_bot = (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'بروكس') local ABS_PROX = {  "اعشقكك يروح "..name_bot.." 😻♥️",  "جعل محد غيركك يحبني 😻♥️" } DevAbs2 = math.random(#ABS_PROX) Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX[DevAbs2] , 1, 'md') end
-if (text and text == (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'بروكس')) then name_bot = (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'بروكس') local namebot = {  '😸♥️ هلٱ كڵبي ويٱك '..name_bot..' تفضڵ',  'ترةه مصختهٱا ٱحجيي شرٱيد 😕😒💔',  'ٱطڵقق وٱحدد يصيح '..name_bot..' 😻♥️',  'خبصتت ٱمنةة شتريدد عٱاد 🤧😒💔' } name = math.random(#namebot) Dev_Abs(msg.chat_id_, msg.id_, 1, namebot[name] , 1, 'md') return false end
+if text == 'اسم البوت' or text == 'البوت شنو اسمه' or text == 'شسمه البوت' or text == 'البوت شسمه'  then name_bot = (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'جاك') local ABS_PROX = {  "مرحبٱ عزيزي 😻♥️ \nٱسمي "..name_bot.." 😚♥️",  "هلاا يروحيي وياكك "..name_bot.." 😻♥️", } DevAbs2 = math.random(#ABS_PROX) Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX[DevAbs2] , 1, 'md') end
+if text ==  ""..name_bot..' احبك' or text ==  ""..name_bot..' احبج' then name_bot = (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'جاك') local ABS_PROX = {  "اعشقكك يروح "..name_bot.." 😻♥️",  "جعل محد غيركك يحبني 😻♥️" } DevAbs2 = math.random(#ABS_PROX) Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX[DevAbs2] , 1, 'md') end
+if (text and text == (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'جاك')) then name_bot = (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'جاك') local namebot = {  '😸♥️ هلٱ كڵبي ويٱك '..name_bot..' تفضڵ',  'ترةه مصختهٱا ٱحجيي شرٱيد 😕😒💔',  'ٱطڵقق وٱحدد يصيح '..name_bot..' 😻♥️',  'خبصتت ٱمنةة شتريدد عٱاد 🤧😒💔' } name = math.random(#namebot) Dev_Abs(msg.chat_id_, msg.id_, 1, namebot[name] , 1, 'md') return false end
 --     Source DevProx     --
 if text =='نقاطي' and Abbas_Abs(msg) then 
 if tonumber((DevAbs:get(DevProx..'bot:add:num'..msg.chat_id_..msg.sender_user_id_) or 0)) == 0 then
@@ -4638,13 +4638,13 @@ if text:match("^source$") or text:match("^Source$") or text:match("^اصدار$"
 local text =  [[
 ☬︙𝗦𝗢𝗨𝗥𝗖𝗘 𝗗𝗘𝗩𝗣𝗥𝗢𝗫
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗛](t.me/Dev_Prox)
+☬︙[𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗛](t.me/XMGXM)
 
-☬︙[𝗘𝗫𝗣 𝗦𝗢𝗨𝗥𝗖𝗘](t.me/Exp_Dev)
+☬︙[𝗘𝗫𝗣 𝗦𝗢𝗨𝗥𝗖𝗘](t.me/fandam0)
 
-☬︙[𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥](t.me/IQ_ABS)
+☬︙[𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥](t.me/Wt_5m)
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗧𝗪𝗦 𝗣𝗥𝗢𝗫](t.me/IQA_bot)
+☬︙[𝗧𝗪𝗦 𝗣𝗥𝗢𝗫](t.me/Tsh0bot)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
