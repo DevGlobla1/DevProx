@@ -4636,7 +4636,7 @@ end
 --     Source DevProx     --
 if text:match("^source$") or text:match("^Source$") or text:match("^اصدار$") or text:match("^الاصدار$") or  text:match("^السورس$") or text:match("^سورس$") or text:match("^ياسورس$") then 
 local text =  [[
-☬︙𝗦𝗢𝗨𝗥𝗖𝗘 𝗗𝗘𝗩𝗣𝗥𝗢𝗫
+☬︙𝗦𝗢𝗨𝗥𝗖𝗘 𝐉𝐀𝐊
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
 ☬︙[𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗛](t.me/XMGXM)
 
@@ -4644,7 +4644,7 @@ local text =  [[
 
 ☬︙[𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥](t.me/Wt_5m)
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗧𝗪𝗦 𝗣𝗥𝗢𝗫](t.me/Tsh0bot)
+☬︙[𝗧𝗪𝗦 𝐉𝐀𝐊](t.me/Tsh0bot)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, text, 1, 'md')
 end
