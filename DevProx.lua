@@ -8667,7 +8667,7 @@ if link.ok == true then
 t2.invite_link_ = link.result
 end
 end
-DevAbs:set(DevProx.."bot:group:link"..msg.chat_id_,(t2.invite_link_ or "@Dev_Prox")) 
+DevAbs:set(DevProx.."bot:group:link"..msg.chat_id_,(t2.invite_link_ or "@XMGXM")) 
 Dev_Abs(msg.chat_id_, msg.id_, 1, "☬︙ٱڵـمجموعة ↫ ( ["..title_name(chattid).."]("..(t2.invite_link_ or "t.me/Dev_Prox")..") )\n☬︙ٱلٱيـدي ↫ ( *"..msg.chat_id_.."* )\n☬︙ٱڵـمنشئ ↫ ( ["..monsh.."] )\n☬︙عدد ٱڵـمـدرٱء ↫ ( *"..Owner.."* )\n☬︙عدد ٱڵـمنشئين ↫ ( *"..Monsh.."* )\n☬︙عدد ٱلٱدمنية ↫ ( *"..admins.."* )\n☬︙عدد ٱڵـمميزين ↫ ( *"..Vip.."* )\n☬︙عدد ٱڵـمحظورين ↫ ( *"..Baned.."* )\n☬︙عدد ٱڵـمقيدين ↫ ( *"..Tkeed.."* )\n☬︙عدد ٱڵـمكتومين ↫ ( *"..Muted.."* )", 1,"md")
 end
 tdcli_function ({ ID = "GetChannelFull", channel_id_ = getChatId(chattid).ID }, DevProx3, nil)
@@ -9956,7 +9956,7 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, '☬︙ڵم يتم تعيين قنٱة ٱلٱ�
 end end end end
 --     Source DevProx     --
 if text and text:match("^القناة$") or text and text:match("^قناة السورس$") or text and text:match("^قنات السورس$") then
-Dev_Abs(msg.chat_id_, msg.id_, 1, '☬︙Channel ↬ [@Dev_Prox]', 1, 'md')    
+Dev_Abs(msg.chat_id_, msg.id_, 1, '☬︙Channel ↬ [@XMGXM]', 1, 'md')    
 end end
 --     Source DevProx     --
 if is_leader(msg) then 
