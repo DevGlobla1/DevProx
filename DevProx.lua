@@ -1587,7 +1587,7 @@ end
 if Chat_Type == 'pv' then 
 if text == '/start' or text == 'رجوع ،🔙‘' then 
 if is_leader(msg) then 
-local Sudo_Welcome = '*☬ ︙ مرحبٱ عزيزي ٱڵـمطور \n☬ ︙ ٱنت ٱڵمطور ٱلٱسٱسي هنٱ \n☬ ︙ ٱڵيك ٱزرٱر سورس ديف بروكس \n☬ ︙ تستطيع ٱڵتحكم بكل ٱلٱوٱمر فقط ٱضغط على ٱلٱمر ٱڵذي تريد تنفيذه*'
+local Sudo_Welcome ='*☬ ︙ مرحبٱ عزيزي ٱڵـمطور \n☬ ︙ ٱنت ٱڵمطور ٱلٱسٱسي هنٱ \n☬ ︙ ٱڵيك ٱزرٱر سورس جاك \n☬ ︙ تستطيع ٱڵتحكم بكل ٱلٱوٱمر فقط ٱضغط على ٱلٱمر ٱڵذي تريد تنفيذه*'
 local key = {
 {'وضع اسم البوت','↫ تحديث ☬','ضع كليشه المطور'},
 {'↫ الكروبات ☬','↫ المطورين ☬','↫ الاحصائيات ☬'},
@@ -1612,7 +1612,7 @@ end end end
 if Chat_Type == 'pv' then 
 if text == '⌯ ❨ تعيين كلايش الاوامر ❩ ⌯' then 
 if is_leader(msg) then 
-local Sudo_Welcome = '*☬ ︙ ٱهلٱ بك مجددٱ عزيزي ٱڵـمطور *\n*☬ ︙ ٱڵيك ٱلٱزرٱر ٱڵخٱصه بتعديل وتغيير كلايش سورس ديف بروكس فقط ٱضغط على ٱلٱمر ٱڵذي تريد تنفيذه*'
+local Sudo_Welcome ='*☬ ︙ ٱهلٱ بك مجددٱ عزيزي ٱڵـمطور *\n*☬ ︙ ٱڵيك ٱلٱزرٱر ٱڵخٱصه بتعديل وتغيير كلايش سورس جاك فقط ٱضغط على ٱلٱمر ٱڵذي تريد تنفيذه*'
 local key = {
 {'تعيين امر الاوامر'},
 {'تعيين امر م3','تعيين امر م2','تعيين امر م1'},
@@ -3850,7 +3850,7 @@ if text == 'نايمين' or text == 'ميتين' then  if not DevAbs:get(DevPro
 if text == 'هلوباي' or text == 'هلو باي' then  if not DevAbs:get(DevProx..'bot:rep:mute'..msg.chat_id_) then ABS_PROX =  "شحۡسۜيت مۘنۨــہ هيجۚ ּكتبت ؟ 🌝♥️" else  ABS_PROX = '' end  Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX, 1, 'md') end
 if text == 'اكلك' or text == 'اكلج' or text == 'اكلكم' then if not DevAbs:get(DevProx..'bot:rep:mute'..msg.chat_id_) then ABS_PROX =  "ڪوولُِ مآڪوولُِ لُِآحٍدِ 𖠙 😉♥️" else ABS_PROX = '' end Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX, 1, 'md') end
 if text == 'فرخ' then  if not DevAbs:get(DevProx..'bot:rep:mute'..msg.chat_id_) then ABS_PROX =  "ٰويۧنۨــہهۂَ خۡل ٱحۡصرهۂَ 𖠙 😹♥️" else  ABS_PROX = '' end  Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX, 1, 'md') end
-if text == 'سورس عبس' or text == 'سورس بروكس' or text == 'سورس ديف بروكس' or text == 'سورس زربه' or text == 'السورس زربه' or text == 'سورس عاوي' or text == 'السورس عاوي' then if not DevAbs:get(DevProx..'bot:rep:mute'..msg.chat_id_) then ABS_PROX =  "لُِآ سوورس خـآلُِتڪ دِي لُِڪ 𖠙 😒🔪" else ABS_PROX = '' end Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX, 1, 'md') end 
+if text == 'سورس جاك' or text == 'سورس جاك' or text == 'سورس جاك' or text == 'سورس زربه' or text == 'السورس زربه' or text == 'سورس عاوي' or text == 'السورس عاوي' then if not DevAbs:get(DevProx..'bot:rep:mute'..msg.chat_id_) then ABS_PROX =  "لُِآ سوورس خـآلُِتڪ دِي لُِڪ 𖠙 😒🔪" else ABS_PROX = '' end Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX, 1, 'md') end 
 end
 --     Source DevProx     --
 if text == 'بوت' or text == 'بوتت' then name_bot = (DevAbs:get('ABS_PROX:'..bot_id..'name_bot') or 'بروكس') local ABS_PROX = {  "ڵتكول بوت ٱسمي "..name_bot.." 😒🔪",  "عندي ٱسم تره 😒💔",  "صيحوڵي "..name_bot.." كٱفي بوت 😒🔪",  "ٱنت ٱڵبوت ڵك 😒💔", } DevAbs2 = math.random(#ABS_PROX) Dev_Abs(msg.chat_id_, msg.id_, 1, ABS_PROX[DevAbs2] , 1, 'md') end
@@ -8907,7 +8907,7 @@ else
 local groups = function(extra, result) 
 local num = (DevAbs:scard(DevProx.."bot:groups"))
 local list = DevAbs:smembers(DevProx.."bot:groups")
-local text = "(Source DevProx - سورس ديف بروكس)\nΞ - File bot groups -\nΞ - ملف مجموعات البوت -\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
+local text = "(Source DevProx - سورس جاك)\nΞ - File bot groups -\nΞ - ملف مجموعات البوت -\n┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉\n"
 for k,v in pairs(list) do
 local GroupsMonsh = DevAbs:scard(DevProx.."abs:monsh:"..v) or 0
 local GroupsOwner = DevAbs:scard(DevProx.."abs:owners:"..v) or 0
@@ -9357,8 +9357,8 @@ local text =  [[
 ☬︙م7 ↫ اوامـر حذف القوائم
 ☬︙م8 ↫ اوامـر المطورين
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]] 
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9421,8 +9421,8 @@ local text =  [[
 ☬︙البوتات بالطرد
 ☬︙البوتات بالتقييد
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9505,8 +9505,8 @@ local text =  [[
 ☬︙تنظيف الميديا
 ☬︙تنظيف التعديل
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9574,8 +9574,8 @@ local text =  [[
 ☬︙ايدي ↫ بالرد • بالمعرف • بالايدي
 ☬︙كشف ↫ بالرد • بالمعرف • بالايدي
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9620,8 +9620,8 @@ local text =  [[
 ☬︙ضع ↫ قوانين + الكليشة
 ☬︙ضع ↫ عدد الاحرف + العدد
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9664,8 +9664,8 @@ local text =  [[
 ☬︙رفع • تنزيل ↫ مميز عام
 ☬︙رفع • تنزيل ↫ منشئ اساسي
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9713,8 +9713,8 @@ local text =  [[
 ☬︙تفعيل • تعطيل ↫ البوت الخدمي
 ☬︙تفعيل • تعطيل ↫ الاشتراك الاجباري
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9762,8 +9762,8 @@ local text =  [[
 ☬︙حذف الادمنيه العامين
 ☬︙حذف المنشئين الاساسيين
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end
@@ -9856,8 +9856,8 @@ local text =  [[
 ☬︙اذاعه خاص بالتوجيه
 ☬︙اذاعه للكل بالتوجيه ↫ بالرد
 ┉ ≈ ┉ ≈ ┉ ≈ ┉ ≈ ┉
-☬︙[𝗗𝗘𝗩 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
-☬︙[𝗧𝗘𝗔𝗠 𝗗𝗘𝗩](https://t.me/XMGXM)
+☬︙[𝗝𝗔𝗞 𝗕𝗢𝗧](https://t.me/]]..ExDevUser..[[) 
+☬︙[𝗧𝗘𝗔𝗠 𝗝𝗔𝗞](https://t.me/XMGXM)
 ]]
 Dev_Abs(msg.chat_id_, msg.id_, 1, (help or text), 1, 'md')
 end end
