@@ -4778,7 +4778,7 @@ if text == 'مسح سحكاتي' or text == 'مسح تعديلاتي' or text ==
 if text == "المطور" then
 local DevCh1 = DevAbs:get(DevProx.."DevAbs3")
 local DevText = DevAbs:get(DevProx.."DevText")
-if DevCh1 then DevCh = '\n*☬ ︙ Dev Ch* ↬ ['..DevCh1..']' else DevCh = '' end
+if DevCh1 then DevCh = '\n*☬ ︙ Jak Ch* ↬ ['..DevCh1..']' else DevCh = '' end
 if DevText then
 Dev_Abs(msg.chat_id_, msg.id_, 1, DevText, 1, "md")
 else
